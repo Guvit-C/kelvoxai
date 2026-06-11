@@ -44,7 +44,7 @@ fadeEls.forEach(el => fadeObserver.observe(el));
 // ── Hero rotating text ─────────────────────
 const phrases = [
   'replace your next 3 hires',
-  'scale without scaling headcount',
+  'scale without headcount',
   'get back 40 hours a week',
 ];
 
