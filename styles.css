@@ -344,10 +344,10 @@ h1, h2, h3, h4 {
 }
 
 .hero__headline {
-  font-size: clamp(36px, 5.5vw, 72px);
+  font-size: clamp(28px, 4.5vw, 64px);
   line-height: 1.1;
   margin-bottom: 24px;
-  max-width: 900px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   letter-spacing: -0.03em;
@@ -362,6 +362,7 @@ h1, h2, h3, h4 {
 
 .hero__rotating {
   display: block;
+  white-space: nowrap;
   background: linear-gradient(90deg, var(--accent), var(--accent-2));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
